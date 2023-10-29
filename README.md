@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Projeto Pokedex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de Pokedex construído usando React, Axios e Chakra UI. A Pokedex é uma vitrine interativa que exibe informações sobre diferentes Pokémon. Ela consome uma API externa para obter dados dos Pokémon e permite a visualização de detalhes, como nome, número e tipos de Pokémon.
 
-## Available Scripts
+## Instalação
 
-In the project directory, you can run:
+1. Certifique-se de ter o Node.js instalado na sua máquina. Caso ainda não tenha, você pode baixá-lo em [Node.js](https://nodejs.org/).
 
-### `npm start`
+2. Clone o repositório do projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    ```bash
+    git clone https://github.com/victorpavani/pokedex_victorpavani
+    ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3. Navegue até o diretório do projeto:
 
-### `npm test`
+    ```bash
+    cd pokedex
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Instale as dependências usando npm ou yarn:
 
-### `npm run build`
+    Usando npm:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Usando yarn:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    yarn install
+    ```
 
-### `npm run eject`
+## Executando o Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento. Certifique-se de estar dentro do diretório do projeto.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Usando npm:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+Funcionalidades
+Lista de Pokémon: A Pokedex exibe uma lista de Pokémon com seus respectivos números e tipos.
+Pesquisa de Pokémon: É possível pesquisar Pokémon por nomes exatos na barra de pesquisa.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tecnologias Utilizadas
+React: Biblioteca JavaScript para construir interfaces de usuário.
+Axios: Cliente HTTP usado para fazer solicitações à API.
+Chakra UI: Biblioteca de design de componentes para React.
