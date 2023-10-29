@@ -9,7 +9,7 @@ Este é um projeto de Pokedex construído usando React, Axios e Chakra UI. A Pok
 2. Clone o repositório do projeto:
 
     ```bash
-    git clone https://github.com/victorpavani/pokedex_victorpavani
+    git clone https://github.com/victorpavani/pokedex
     ```
 
 3. Navegue até o diretório do projeto:
