@@ -15,7 +15,6 @@ const PokemonList: React.FC = () => {
     const [displayedPokemons, setDisplayedPokemons] = useState(14);
     const [hoveredPokemon, setHoveredPokemon] = useState<number | null>(null);
     const [searchTerm, setSearchTerm] = useState<string>('');
-    const [isFocused, setIsFocused] = useState<boolean>(false);
     const [isValidPokemon, setIsValidPokemon] = useState<boolean>(true);
     const [allPokemons, setAllPokemons] = useState<PokemonDetails[]>([]);
 
@@ -109,8 +108,6 @@ const PokemonList: React.FC = () => {
                 placeholder="Pesquisar Pokémon"
                 value={searchTerm}
                 onChange={(e) => searchPokemon(e.target.value)}
-                onFocus={() => setIsFocused(true)}
-                onBlur={() => setIsFocused(false)}
                 style={{
                     margin: '20px 0',
                     marginLeft: '5px',
