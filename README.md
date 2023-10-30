@@ -2,6 +2,8 @@
 
 Este é um projeto de Pokedex construído usando React, Axios e Chakra UI. A Pokedex é uma vitrine interativa que exibe informações sobre diferentes Pokémon. Ela consome uma API externa para obter dados dos Pokémon e permite a visualização de detalhes, como nome, número e tipos de Pokémon.
 
+Acesse agora: https://pokedex-victorpavani.netlify.app
+
 ## Instalação
 
 1. Certifique-se de ter o Node.js instalado na sua máquina. Caso ainda não tenha, você pode baixá-lo em [Node.js](https://nodejs.org/).
