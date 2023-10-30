@@ -119,7 +119,7 @@ const PokemonList: React.FC = () => {
                     borderRadius: '8px',
                     width: 'calc(100% - 40px)',
                     border: '1px solid #999999',
-                    backgroundColor: '#c4c2c2',
+                    backgroundColor: '#FFFFFF',
                     boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
                 }}
             />
