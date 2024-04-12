@@ -4,7 +4,6 @@ import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 import './Clock_styles.css';
 
 const MyFlipClock = () => {
-    // Calculate the total milliseconds for 10 days, 22 hours, and 55 minutes
     const tenDaysInMillis = 10 * 24 * 60 * 60 * 1000;
     const twentyTwoHoursInMillis = 22 * 60 * 60 * 1000;
     const fiftyFiveMinutesInMillis = 55 * 60 * 1000;
