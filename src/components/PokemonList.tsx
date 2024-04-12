@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Input, Flex, Box, Image, Text, Button } from '@chakra-ui/react';
 import './styles.css';
+import MyFlipClock from './Clock/ClockDown';
 
 interface PokemonDetails {
     name: string;
@@ -87,18 +88,33 @@ const PokemonList: React.FC = () => {
 
     return (
         <div>
-            <h1
-                style={{
-                    textAlign: 'left',
-                    color: '#d1d100',
-                    fontFamily: 'Pokemon',
-                    fontSize: '2em',
-                    textShadow: '5px 5px blue',
-                    marginLeft: '20px',
-                }}
-            >
-                Pokédex
-            </h1>
+            <Flex alignItems="center" marginBottom="20px">
+                <h1
+                    style={{
+                        color: '#d1d100',
+                        fontFamily: 'Pokemon',
+                        fontSize: '2em',
+                        textShadow: '5px 5px blue',
+                        marginLeft: '20px',
+                    }}
+                >
+                    Pokédex
+                </h1>
+                <Box marginLeft="auto" marginRight="20px">
+                    <h1
+                        style={{
+                            color: '#d1d100',
+                            fontFamily: 'Pokemon',
+                            fontSize: '2em',
+                            textShadow: '5px 5px blue',
+                        }}
+                    >
+                        Novos pokemons em:
+                    </h1>
+                </Box>
+                <MyFlipClock />
+            </Flex>
+
             {!isValidPokemon && (
                 <Text fontWeight="bold" color="red">
                     Nome inválido
